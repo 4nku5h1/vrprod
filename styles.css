@@ -11795,3 +11795,46 @@ body {
 .text-price{
   color: white;
 }
+.access-denied{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: #000;
+}
+
+.text-coder{
+  font-weight: 700;
+  color: white;
+  
+}
+.text-coder:hover{
+  text-decoration: none !important;
+  color: white;
+}
+.text-coder-phone{
+  display: none;
+}
+.text-coder:hover .text-coder-phone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-coder a{
+  font-weight: 700;
+  text-decoration: none !important;
+  color: white;
+}
+.text-coder span{
+  color: red;
+}
+.text-coder-phone i{
+  color: #0d6efd !important;
+}
+text-primary11 {
+  font-size: 50px !important;
+  color: black !important;
+}
